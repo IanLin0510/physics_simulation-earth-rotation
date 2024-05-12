@@ -3,7 +3,7 @@
 
 # In[1]:
 
-
+#sumulate the motion
 from vpython import *
 dict={'intensity':[],'time':[]}
 #plot the graph
@@ -126,7 +126,7 @@ if choose==3:#summer solstice
 
 # In[2]:
 
-
+#process the data
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
@@ -163,7 +163,7 @@ len(Intensity)
 
 # In[7]:
 
-
+#plot the graph
 I_sum=0
 for i in range(0,14364):
     if Intensity[i]>0:
